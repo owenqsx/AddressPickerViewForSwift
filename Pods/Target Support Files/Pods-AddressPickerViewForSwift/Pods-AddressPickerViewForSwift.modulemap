@@ -1,0 +1,6 @@
+framework module Pods_AddressPickerViewForSwift {
+  umbrella header "Pods-AddressPickerViewForSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

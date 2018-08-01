@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BBBBE50B1E814C6D00AB4D3D"
+               BuildableName = "AddressPickerViewForSwift.app"
+               BlueprintName = "AddressPickerViewForSwift"
+               ReferencedContainer = "container:AddressPickerViewForSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BBBBE50B1E814C6D00AB4D3D"
+            BuildableName = "AddressPickerViewForSwift.app"
+            BlueprintName = "AddressPickerViewForSwift"
+            ReferencedContainer = "container:AddressPickerViewForSwift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

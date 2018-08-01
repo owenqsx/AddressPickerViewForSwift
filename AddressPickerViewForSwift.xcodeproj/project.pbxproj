@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB56BF121E81649100A0527B /* AddressPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56BF111E81649100A0527B /* AddressPickerView.swift */; };
-		BBABCDB31E8206A9001FA01C /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = BBABCDB21E8206A9001FA01C /* address.json */; };
+		14601375463FB706F4B7F4D7 /* Pods_AddressPickerViewForSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ACED35719F233E38F57FEE /* Pods_AddressPickerViewForSwift.framework */; };
+		4C839DF92111B2DB00769B5F /* AddressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C839DF52111B2DA00769B5F /* AddressData.swift */; };
+		4C839DFA2111B2DB00769B5F /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C839DF62111B2DA00769B5F /* address.json */; };
+		4C839DFB2111B2DB00769B5F /* AddressPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C839DF72111B2DA00769B5F /* AddressPickerView.swift */; };
+		4C839DFC2111B2DB00769B5F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C839DF82111B2DB00769B5F /* data.json */; };
 		BBBBE5101E814C6D00AB4D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE50F1E814C6D00AB4D3D /* AppDelegate.swift */; };
 		BBBBE5121E814C6D00AB4D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBE5111E814C6D00AB4D3D /* ViewController.swift */; };
 		BBBBE5151E814C6D00AB4D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBBE5131E814C6D00AB4D3D /* Main.storyboard */; };
@@ -17,8 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB56BF111E81649100A0527B /* AddressPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressPickerView.swift; sourceTree = "<group>"; };
-		BBABCDB21E8206A9001FA01C /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
+		25ACED35719F233E38F57FEE /* Pods_AddressPickerViewForSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressPickerViewForSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C839DF52111B2DA00769B5F /* AddressData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressData.swift; sourceTree = "<group>"; };
+		4C839DF62111B2DA00769B5F /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = address.json; path = "../../../../Higold/higold-mvvm/higold/Classes/Utils/Lib/AddressPickerView/address.json"; sourceTree = "<group>"; };
+		4C839DF72111B2DA00769B5F /* AddressPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressPickerView.swift; path = "../../../../Higold/higold-mvvm/higold/Classes/Utils/Lib/AddressPickerView/AddressPickerView.swift"; sourceTree = "<group>"; };
+		4C839DF82111B2DB00769B5F /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		AB2BC61F39E98097BCA7FF46 /* Pods-AddressPickerViewForSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressPickerViewForSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressPickerViewForSwift/Pods-AddressPickerViewForSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B859CDC6C14A9194ED4DA39D /* Pods-AddressPickerViewForSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressPickerViewForSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressPickerViewForSwift/Pods-AddressPickerViewForSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		BBBBE50C1E814C6D00AB4D3D /* AddressPickerViewForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressPickerViewForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBBE50F1E814C6D00AB4D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBBE5111E814C6D00AB4D3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14601375463FB706F4B7F4D7 /* Pods_AddressPickerViewForSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31C4C8CAFB23FF097AAAE7F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B859CDC6C14A9194ED4DA39D /* Pods-AddressPickerViewForSwift.debug.xcconfig */,
+				AB2BC61F39E98097BCA7FF46 /* Pods-AddressPickerViewForSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BBBBE5031E814C6D00AB4D3D = {
 			isa = PBXGroup;
 			children = (
 				BBBBE50E1E814C6D00AB4D3D /* AddressPickerViewForSwift */,
 				BBBBE50D1E814C6D00AB4D3D /* Products */,
+				31C4C8CAFB23FF097AAAE7F0 /* Pods */,
+				C444CCFD061BEC4DCAC290C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,10 +92,20 @@
 		BBBBE5251E814EC900AB4D3D /* AddressPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				BBABCDB21E8206A9001FA01C /* address.json */,
-				BB56BF111E81649100A0527B /* AddressPickerView.swift */,
+				4C839DF62111B2DA00769B5F /* address.json */,
+				4C839DF72111B2DA00769B5F /* AddressPickerView.swift */,
+				4C839DF82111B2DB00769B5F /* data.json */,
+				4C839DF52111B2DA00769B5F /* AddressData.swift */,
 			);
 			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		C444CCFD061BEC4DCAC290C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25ACED35719F233E38F57FEE /* Pods_AddressPickerViewForSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBBBE51E1E814C6E00AB4D3D /* Build configuration list for PBXNativeTarget "AddressPickerViewForSwift" */;
 			buildPhases = (
+				D83C9D2F42BF310F9A298E95 /* [CP] Check Pods Manifest.lock */,
 				BBBBE5081E814C6D00AB4D3D /* Sources */,
 				BBBBE5091E814C6D00AB4D3D /* Frameworks */,
 				BBBBE50A1E814C6D00AB4D3D /* Resources */,
+				8D93C0E5A08311253C429295 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,13 +170,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBBBE51A1E814C6D00AB4D3D /* LaunchScreen.storyboard in Resources */,
+				4C839DFC2111B2DB00769B5F /* data.json in Resources */,
+				4C839DFA2111B2DB00769B5F /* address.json in Resources */,
 				BBBBE5171E814C6D00AB4D3D /* Assets.xcassets in Resources */,
-				BBABCDB31E8206A9001FA01C /* address.json in Resources */,
 				BBBBE5151E814C6D00AB4D3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D93C0E5A08311253C429295 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AddressPickerViewForSwift/Pods-AddressPickerViewForSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressPickerViewForSwift/Pods-AddressPickerViewForSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83C9D2F42BF310F9A298E95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressPickerViewForSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBBBE5081E814C6D00AB4D3D /* Sources */ = {
@@ -152,7 +224,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBBBE5121E814C6D00AB4D3D /* ViewController.swift in Sources */,
-				BB56BF121E81649100A0527B /* AddressPickerView.swift in Sources */,
+				4C839DF92111B2DB00769B5F /* AddressData.swift in Sources */,
+				4C839DFB2111B2DB00769B5F /* AddressPickerView.swift in Sources */,
 				BBBBE5101E814C6D00AB4D3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +347,7 @@
 		};
 		BBBBE51F1E814C6E00AB4D3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B859CDC6C14A9194ED4DA39D /* Pods-AddressPickerViewForSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddressPickerViewForSwift/Info.plist;
@@ -287,6 +361,7 @@
 		};
 		BBBBE5201E814C6E00AB4D3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB2BC61F39E98097BCA7FF46 /* Pods-AddressPickerViewForSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddressPickerViewForSwift/Info.plist;

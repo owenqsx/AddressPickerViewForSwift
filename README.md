@@ -1,4 +1,11 @@
+
 ### 省市区地址选择器
+
+fork By Jonhory
+[原作者传送门](https://github.com/Jonhory/AddressPickerView)
+
+更新数据源为China-area-data的数据源
+增加直接通过RegionID返显的地区的功能
 
 ![效果图](https://ws1.sinaimg.cn/large/c6a1cfeagy1fts792k4hkj20ae0il0ta.jpg)
 
@@ -28,3 +35,6 @@ picker?.delegate = self
 * 隐藏
 
 `picker?.hide()`
+
+* 选择地区
+`picker?.selectRow(regionId: Int)`
